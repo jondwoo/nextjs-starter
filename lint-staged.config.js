@@ -11,4 +11,3 @@ module.exports = {
   // Format MarkDown and JSON
   '**/*.(md|json)': filenames => `pnpm prettier --write ${filenames.join(' ')}`,
 };
-Footer
